@@ -1,3 +1,3 @@
 def line 
-  
+  puts 
 end 
