@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  phrase = "The line is currently: "
+  phrase = "The line is empty"
   if katz_deli.length > 0 
     katz_deli.each_with_index do |name, index|
       phrase += "#{index + 1}. #{name} "
