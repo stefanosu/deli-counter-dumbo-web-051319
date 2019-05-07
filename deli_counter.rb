@@ -1,7 +1,7 @@
 
 def line 
   katz_deli = []
-  if katz_deli == valu
+  if katz_deli.empty? == valu
   puts "The line is currently empty"
 end 
 
