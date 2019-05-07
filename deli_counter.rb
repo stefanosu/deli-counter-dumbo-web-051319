@@ -31,7 +31,6 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-# use the push method for Append — Pushes the given object(s) on to the end of this array. This expression returns the array itself, so several appends may be chained together.
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 # return the person's name along with their position in line by using the hashtag, swingly brackets to call every arguement's iteration   
 end
