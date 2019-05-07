@@ -2,7 +2,7 @@
 def line 
   katz_deli = []
   if katz_deli.empty? == true 
-  return puts "The line is currently empty"
+  return  "The line is currently empty"
 end 
 
 def take_a_number(katz_deli, name) 
