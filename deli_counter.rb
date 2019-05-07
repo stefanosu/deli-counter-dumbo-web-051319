@@ -13,11 +13,11 @@ def line(numinline)
   if numinline.length == 0
     puts "The line is currently empty."
   else
-    line_method_array.each.with_index(0) do |name, index|
+    line_array.each.with_index(0) do |name, index|
       line_array.push("#{index} #{name}")
       # push method will push the name into the index 
     end
-    puts "The line is: #{line_array.join(" ")}"
+    puts "The line is: #{line_array.join(" ")}
   end
 end
 
