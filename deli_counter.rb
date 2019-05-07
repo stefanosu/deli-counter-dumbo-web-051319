@@ -9,7 +9,7 @@
 katz_deli = []
 
 def line(numinline)
-  line_method_array = []
+  line_array = []
   if numinline.length == 0
     puts "The line is currently empty."
   else
@@ -17,7 +17,7 @@ def line(numinline)
       line_method_array.push("#{index} #{name}")
       # push method will push the name into the index 
     end
-    puts "The line is: #{line_method_array.join(" ")}"
+    puts "The line is: #{line_array.join(" ")}"
   end
 end
 
