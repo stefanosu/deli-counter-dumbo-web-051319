@@ -1,4 +1,3 @@
-katz_deli = []
 
 def line
   line_arr = []
