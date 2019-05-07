@@ -2,8 +2,8 @@ katz_deli = []
 
 def line(katz_deli)
   line = []
-  if !line
-  puts "The line is empty"
+  if !line.empty? == true 
+  puts "The line is currently empty"
 end 
 
 
