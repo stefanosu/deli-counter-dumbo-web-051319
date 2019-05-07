@@ -8,7 +8,7 @@
 # used the length of the agrument as the conditional a
 katz_deli = []
 
-def line_method(numinline)
+def line(numinline)
   line_method_array = []
   if numinline.length == 0
     puts "The line is currently empty."
