@@ -17,7 +17,7 @@ def line(numinline)
       line_array.push("#{index} #{name}")
       # push method will push the name into the index 
     end
-    puts "The line is: #{line_array.join(" ")}
+    puts "The line is: #{line_array.join(" ")}"
   end
 end
 
